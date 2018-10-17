@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+    width:100%;
+    height:100%;
+    
+}
+
+#particles-js{   
+    background-color: #111;
+    height: 100vh;
+    position: relative;
+    background-image: url("../img/image1.jpg");
+    
+
+   
+}
+
+#particles-js-1{
+    height: 100%;
+    position: relative;
+    width: 100%;
+   
+}
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0 0 3px #323452, 0 0 5px #0b1132;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+.btn:hover{
+    color: #9d91e2;
+    border: #fff 1px solid;
+    
+}
+
+
+
+
+#sidebar{
+    position: fixed;
+    left: -200px;
+    background: #2c3e50;
+    top: 0px;
+    bottom:0px;
+    width: 270px;
+    height: 100vh;
+
+
+}
+.icon {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 99, 248);
+    z-index: 1;
+}
+
+
+
+body {
+    font-family: 'Audiowide', cursive;
+    transition: background-color .5s;
+}
+
+.sidenav1{ 
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+
+}
+.sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav1 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav1 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-top: 50vh;
+    padding-left: 1.5vw;
+    color: #f1f1f1;
+    z-index: 1;
+    position: fixed;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.kursor{
+    position: fixed;
+    left: -200px;
+    background: #2c3e50;
+    top: 0px;
+    bottom: 0px;
+    width: 270px;
+    
+}
+
+img{
+    width: 300px;
+    height: 350px;
+   
+}
+
+.media{
+    font-family: 'Audiowide', cursive;
+    transition: background-color .5s;
+    color: #f1f1f1;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #10d9e7, 0 0 5px #314ff8;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.media1{
+    color: #f1f1f1;
+    font-size: 1.0em; 
+    text-shadow: 0 0 3px #303333;
+    
+}
+.skills{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+.Experience{
+    font-family: 'Audiowide', cursive;
+    transition: background-color .5s;
+    color: #f1f1f1;
+    text-shadow: 0 0 3px #10d9e7, 0 0 5px #314ff8;
+
+}
+
+.hl{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 25px;
+    padding-bottom:5vh;
+}
+
+#Experience{
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    width: 50%;
+    background: #696767;
+    position: relative;
+    padding: 10px 14px 80px;
+}
+
+.fab{
+    font-size: 50px !important;
+    padding-bottom: 10px;
+    
+}
+
+.language{
+    padding: 10 0 10 0;
+    font-family: 'Audiowide', cursive;
+    transition: background-color .5s;
+    color: #f1f1f1;
+}
+
+.Portofilio{
+    color: #797878;
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@
+
+
+(max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
